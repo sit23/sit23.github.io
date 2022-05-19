@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>	
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -47,12 +47,18 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Software</h1>
+							<h1>Software and data visualisation</h1>
 							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-							<p>I am keen to increase reproducibility in scientific research by making all my software available online through GitHub. I have lead the development of the Isca modelling framework, but I am also active in developing other software. Most recently, I've been developing an analysis pipeline to analyse GEFS data for use in teaching. I will make this available below once it's finished.</p>
+							<p>I am keen to increase reproducibility in scientific research by making all my software available online through GitHub. I have lead the development of the Isca modelling framework, but I am also active in developing other software. Most recently, I've been developing an analysis pipeline to analyse GEFS data for use in teaching. I will make this available below once it's finished. </p>
+								
+							<p>I've also been working on visualising climate-model data using interactive plots using the <a href="https://plotly.com/python/" target="_blank">plotly</a> library. Below I've included some recent examples that were generated using <a href="https://jra.kishou.go.jp/JRA-55/index_en.html" target="_blank">JRA-55 reanalysis data</a>.</p>
+							<!-- <iframe src="images/monthly_u250_test.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe> -->
+							<!-- <iframe src="images/monthly_u250_test.html" title="JRA-55 example"></iframe> -->
+							<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="images/monthly_u250_test.html" height="850" width="100%"></iframe>						<iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="images/monthly_temp_2m_test.html" height="850" width="100%"></iframe>					
+
 						</div>
 					</div>
-
+					
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
